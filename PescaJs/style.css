@@ -1,0 +1,159 @@
+body{
+    margin: 0;
+}
+
+.myVideo {
+    position: fixed;
+    right: 0;
+    width: 780px;
+    z-index: 1;
+  }
+
+.pescar{
+    width: 55px;
+    height: 55px;
+    margin-top: 159px;
+    margin-left: 21px;
+    background-color: #1e5c9799;
+    border-radius: 50%;
+    border: 1px solid #b0d5fd;
+    box-shadow: 0px 0px 5px 0px #8efff56b;
+    position: fixed;
+    z-index: 20;
+}
+
+.pescarSi{
+    background-color: #971e1e99;
+    z-index: 21;
+}
+
+.reward{
+    width: 200px;
+    height: 246px;
+    background-color: #ceebffde;
+    border-radius: 4px;
+    box-shadow: 0px 0px 3px 0px #d0daf5;
+    position: fixed;
+    z-index: 0;
+}
+
+.rewardImg{
+    width: 150px;
+    height: 150px;
+    margin: 25px;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.coinReward{
+    height: 30px;
+    width: 30px;
+    padding: 8px;
+}
+
+.numberColection{
+    font-size: 25px;
+    font-family: 'Rokkitt';
+    color: #2772c3;
+    margin: 2px;
+}
+
+.coinRewardP, .coinRewardPItem{
+    font-size: 30px;
+    margin: 6px;
+    font-family: 'Rokkitt';
+    color: #2772c3;
+}
+
+.flexCoin{
+    display: flex;
+}
+
+.balance{
+    display: flex;
+    position: fixed;
+    z-index: 21;
+    background-color: #e1ffff2b;
+    border-radius: 4px;
+    margin: 3px;
+}
+
+.flexTotal{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    position: fixed;
+    z-index: 0;
+    visibility: hidden;
+    transition: visibility 3s;
+    
+}
+
+.modalColeccion{
+    display: flex;
+    position: fixed;
+    background-color: antiquewhite;
+    width: 300px;
+    height: 400px;
+    z-index: 22;
+}
+
+.flexX{
+    display: flex;
+    justify-content: flex-end;
+    width: inherit;
+}
+
+.px{
+    margin: 5px;
+}
+
+.fondoCebo{
+    z-index: 0;
+}
+
+.fondoCero{
+    z-index: 0;
+}
+
+.fondoVeinte{
+    z-index: 20;
+}
+
+.fondoVeintidos{
+    z-index: 22;
+    visibility: visible;
+}
+
+.divItemsCollection{
+    display: flex;
+    width: 300px;
+    height: 400px;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.itemInCollection{
+    width: 80px;
+    height: 80px;
+    position: inherit;
+    z-index: inherit;
+}
+
+.divsItemsNuevos{
+    z-index: 22;
+    padding: 5px;
+    background-color: #eff7ffbf;
+    box-shadow: 1px -1px 2px 0px #9ed2ff;
+    margin: 5px;
+    border-radius: 4px;
+}
